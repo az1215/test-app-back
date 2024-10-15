@@ -399,12 +399,3 @@ app.post('/deleteProjectData', jsonParser, (req, res) => {
     })
 })
 
-
-
-// DBの代わり
-const user = { id: 1, name: 'Taro'};
-
-// GET /api/user
-app.get('/api/user', (req, res) => {
-   res.send(user);
-});
